@@ -76,7 +76,10 @@ router.post("/login", async (req, res) => {
       );
 
       // When logged in save refresh token to database
-      RefreshTokenModel.create({ user_id: user._id, token: refreshToken });
+      RefreshTokenModel.update(
+        { user_id: user._id, token: refreshToken },
+        { upsert: true }
+      );
       return res.status(200).json({ accessToken, refreshToken });
     }
     res.status(400).send("Invalid Credentials");
