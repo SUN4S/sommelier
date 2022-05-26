@@ -1,0 +1,12 @@
+GET http://localhost:5000/api/collection/my-wines
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxLCJleHAiOjE2NTM1MjkyNTF9.Y8kGbXR9A58LMZTpOvrLMpQeXsk-_aXJSOyyJ62Fo5g
+
+###
+POST http://localhost:5000/api/collection/my-wines
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxLCJleHAiOjE2NTM1MjkyNTF9.Y8kGbXR9A58LMZTpOvrLMpQeXsk-_aXJSOyyJ62Fo5g
+Content-Type: application/json
+
+{
+  "wine_id": "628eaeb2d72547ee53b54011",
+  "quantity": "1"
+}

@@ -1,0 +1,16 @@
+GET http://localhost:5000/api/wine/wines
+
+###
+GET http://localhost:5000/api/wine/wines/0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxLCJleHAiOjE2NTM1MjkyNTF9.Y8kGbXR9A58LMZTpOvrLMpQeXsk-_aXJSOyyJ62Fo5g
+
+###
+POST http://localhost:5000/api/wine/wines
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxLCJleHAiOjE2NTM1MjkyNTF9.Y8kGbXR9A58LMZTpOvrLMpQeXsk-_aXJSOyyJ62Fo5g
+Content-Type: application/json
+
+{
+  "title": "Antinori Tignanello",
+  "region": "Tuscany, Italy",
+  "year": "2018"
+}
