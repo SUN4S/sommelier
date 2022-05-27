@@ -1,27 +1,27 @@
-GET http://localhost:5000/welcome
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxLCJleHAiOjE2NTM1MjkyNTF9.Y8kGbXR9A58LMZTpOvrLMpQeXsk-_aXJSOyyJ62Fo5g
+GET http://18.234.82.3:5000/welcome
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MzQ0LCJleHAiOjE2NTM2ODkyNDR9.4qnCD7EUig88lPiz7BFmdAAx6j2u8TikWjvt_18zJdw
 
 ###
 
-POSt http://localhost:5000/api/user/token
+POSt http://18.234.82.3:5000/api/user/token
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxfQ.qcnhALCHhCO-g7AdrzHgdEHrW7e8ZdFAkXtWFdD4fUw"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4NjA2fQ.2fX3i7YKrjJW_Hmb-SllC3VOz49-KvuKRccdym_Q1as"
 }
 
 ###
-POST http://localhost:5000/api/user/register
+POST http://18.234.82.3:5000/api/user/register
 Content-Type: application/json
 
 {
-  "username": "petras123",
-  "email": "randomemail@mail.com",
+  "username": "kazys123",
+  "email": "vasdajsdas@mail.com",
   "password": "password123"
 }
 
 ###
-POST http://localhost:5000/api/user/login
+POST http://18.234.82.3:5000/api/user/login
 Content-Type: application/json
 
 {
@@ -30,16 +30,16 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5000/api/user/logout
+DELETE http://18.234.82.3:5000/api/user/logout
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNTI4MzUxfQ.qcnhALCHhCO-g7AdrzHgdEHrW7e8ZdFAkXtWFdD4fUw"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MDIxfQ.a7NemjuL9iecyBLBOjYyo6s6XKSqsH0RleSUH4GWU2U"
 }
 
 ###
-POST http://localhost:5000/api/user/change-password
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWJkOWRkMjkwYTkxZTAzZThmMDFmIiwidXNlcm5hbWUiOiJwZXRyYXMxMjMiLCJpYXQiOjE2NTM1MjE4MzEsImV4cCI6MTY1MzUyMjczMX0.nEdxsqcmfze-GAG8Ko1uL5vZWZDkeiT61MrCY2X1VMs
+POST http://18.234.82.3:5000/api/user/change-password
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MDIxLCJleHAiOjE2NTM2ODg5MjF9.7Va5zNQY2YUzHWQCG0_ej1xyOpdnbFwdce9i42_Jfmo
 Content-Type: application/json
 
 {
