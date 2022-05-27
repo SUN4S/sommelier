@@ -4,7 +4,7 @@ Quick and Dirty back-end project to check our understanding of back-end workflow
 ## Usage
 ```.env``` file has to be created in root directory
 ```
-PORT=<choose a port>
+PORT=5000
 JWT_SECRET_KEY=<Generated JWT key>
 JWT_REFRESH_TOKEN_SECRET=<Generate Different JWT key>
 TOKEN_HEADER_KEY=<JWT Header key>
