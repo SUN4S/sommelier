@@ -1,8 +1,8 @@
-GET http://18.234.82.3:5000/api/collection/my-wines
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4ODIzLCJleHAiOjE2NTM2ODk3MjN9.xu2c3f7SCCe_umcjsGDZhNfbcrKlUES1Fh9pduP4DV8
+GET http://52.70.74.83:5000/api/collection/my-wines
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNzAyMTAyLCJleHAiOjE2NTM3MDMwMDJ9.BzFfUglpRHo-w7pzW5SgB05JnQLJIyrpUfeU_gxHNJs
 
 ###
-POST http://18.234.82.3:5000/api/collection/my-wines
+POST http://52.70.74.83:5000/api/collection/my-wines
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4ODIzLCJleHAiOjE2NTM2ODk3MjN9.xu2c3f7SCCe_umcjsGDZhNfbcrKlUES1Fh9pduP4DV8
 Content-Type: application/json
 

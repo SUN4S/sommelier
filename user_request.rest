@@ -1,27 +1,27 @@
-GET http://18.234.82.3:5000/welcome
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MzQ0LCJleHAiOjE2NTM2ODkyNDR9.4qnCD7EUig88lPiz7BFmdAAx6j2u8TikWjvt_18zJdw
+GET http://52.70.74.83:5000/welcome
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNzAzMDMzLCJleHAiOjE2NTM3MDM5MzN9.panp51tszfUYuvQyMMQcmfItkth665D7Sv0MTr0K6WE
 
 ###
 
-POSt http://18.234.82.3:5000/api/user/token
+POSt http://52.70.74.83:5000/api/user/token
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4NjA2fQ.2fX3i7YKrjJW_Hmb-SllC3VOz49-KvuKRccdym_Q1as"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNzAzMjA2fQ.VX0_E3HMeXUgl2zwvrUB9tdj39NiV0OX2I2eXREpIqk"
 }
 
 ###
-POST http://18.234.82.3:5000/api/user/register
+POST http://52.70.74.83:5000/api/user/register
 Content-Type: application/json
 
 {
-  "username": "kazys123",
-  "email": "vasdajsdas@mail.com",
+  "username": "petrauskas123",
+  "email": "vvvvvvvvvvvvv@mail.com",
   "password": "password123"
 }
 
 ###
-POST http://18.234.82.3:5000/api/user/login
+POST http://52.70.74.83:5000/api/user/login
 Content-Type: application/json
 
 {
@@ -30,15 +30,15 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://18.234.82.3:5000/api/user/logout
+DELETE http://52.70.74.83:5000/api/user/logout
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MDIxfQ.a7NemjuL9iecyBLBOjYyo6s6XKSqsH0RleSUH4GWU2U"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNzAyMTAyfQ._DN9_N0AcP-9oVo7QtTaqET4QRge9dSBn9Petw46TMA"
 }
 
 ###
-POST http://18.234.82.3:5000/api/user/change-password
+POST http://52.70.74.83:5000/api/user/change-password
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjI4ZWNmODYzYzI0ZDZiOTAzOGM3NDM1IiwidXNlcm5hbWUiOiJqb2huMTIzIiwiaWF0IjoxNjUzNjg4MDIxLCJleHAiOjE2NTM2ODg5MjF9.7Va5zNQY2YUzHWQCG0_ej1xyOpdnbFwdce9i42_Jfmo
 Content-Type: application/json
 
